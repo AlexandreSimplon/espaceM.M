@@ -1,10 +1,9 @@
 <?php
 require_once ('../inc/header.php');
 ?>
-
-
-
-<form method="POST" action="connexion.php" >
+<div class="container">
+    <h1>Inscription</h1>
+<form method="POST" action="inc_inscription.php" >
 
     <div>
         <label for="pseudo">pseudo</label>
@@ -22,9 +21,7 @@ require_once ('../inc/header.php');
     <div>
         <button type="submit">Valider</button>
     </div>
-
-
-
+</div>
 
 </form>
 
