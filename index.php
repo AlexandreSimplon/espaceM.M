@@ -18,7 +18,7 @@ $image = $donnees['image'];
     <section class="home">
         <h2><?php echo $titre; ?></h2>
         <p><?php echo $desc; ?></p>
-    <img src="<?php echo $image; ?>" alt="Photo d'un chat" style="width: 250px; height: 250px;">
+    <img src="<?php echo $image; ?>" alt="Photo d'un chat" style="height: 250px; width: auto;">
     </section>
     <script src="JS/app.js"></script>
 

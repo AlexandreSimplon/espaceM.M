@@ -5,7 +5,7 @@ require('connexion.php');
 $email = htmlspecialchars($_POST['email']);
     
     if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-      echo "Désolé, l'email n'est pas valide ! ";
+        echo "Désolé, l'email n'est pas valide ! ";
     } 
     else 
     {
@@ -36,8 +36,5 @@ $email = htmlspecialchars($_POST['email']);
             }
             
         // }
-    
-      
-      
 
     }

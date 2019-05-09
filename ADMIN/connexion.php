@@ -3,7 +3,7 @@
 $host = "localhost";
 $dbname = "espaceadmin";
 $user = "root";
-$password = "";
+$password = "&çà_&ç_(";
 
 // Montre les erreurs au dev
 error_reporting(E_ALL);
