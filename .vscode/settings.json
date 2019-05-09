@@ -3,7 +3,10 @@
         {
             "format": "compressed",
             "extensionName": ".min.css",
-            "savePath": "/CSS/"
+            "savePath": "/css"
         }
-    ],"liveSassCompile.settings.generateMap": false,
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "workbench.settings.useSplitJSON": true,
+    "minify.minifyExistingOnSave": true
 }

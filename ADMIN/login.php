@@ -10,22 +10,18 @@
 </head>
 
 <body>
-    <h1>Inscription</h1>
-    <form method='post' action="inscription.php">
+    <h1>Se connecter</h1>
+    <form method='post' action="login_post.php">
         <div>
             <label for="email">Email</label>
             <input type="email" name="email" required>
-        </div>
-        <div>
-            <label for="pseudo">Pseudo</label>
-            <input type="text" name="pseudo" required>
         </div>
         <div>
             <label for="password">Mot de passe</label>
             <input type="password" name="password" required>
         </div>
         <div>
-        <button type="submit">Envoyer</button>
+        <button type="submit">Connection</button>
         </div>
     </form>
 </body>
